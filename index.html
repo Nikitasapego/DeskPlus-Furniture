@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>DeskPlus-Furniture</title>
+</head>
+
+<body>
+    <svg style="display:none">
+        <symbol id="play" viewbox="0 0 125 125">
+            <g>
+                <circle cx="62.9426" cy="62.1641" r="61.25" stroke="white" stroke-width="1.5" />
+                <path d="M50.6094 40.5808V83.7475L84.526 62.1641L50.6094 40.5808Z" fill="white" />
+            </g>
+        </symbol>
+        <symbol id="twitter" viewbox="0 0 512 512">
+            <g>
+                <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+    			c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+    			c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+    			c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+    			c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+    			c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+    			C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+    			C480.224,136.96,497.728,118.496,512,97.248z" />
+            </g>
+        </symbol>
+        <symbol id="facebook" viewbox="0 0 24 24">
+            <g>
+                <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" />
+            </g>
+        </symbol>
+        <symbol id="instagram" viewbox="0 0 511 511.9">
+            <g>
+                <path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0" />
+                <path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0" />
+                <path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0" />
+            </g>
+        </symbol>
+        <symbol id="pinterest" viewbox="0 0 97.75 97.75">
+            <g>
+                <path d="M48.875,0C21.883,0,0,21.882,0,48.875S21.883,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.867,0,48.875,0z
+    		 M54.499,65.109c-4.521,0-8.773-2.444-10.229-5.219c0,0-2.432,9.645-2.943,11.506c-1.813,6.58-7.146,13.162-7.561,13.701
+    		c-0.289,0.375-0.928,0.258-0.994-0.24c-0.113-0.838-1.475-9.139,0.127-15.909c0.801-3.4,5.383-22.814,5.383-22.814
+    		s-1.334-2.673-1.334-6.625c0-6.205,3.596-10.837,8.074-10.837c3.807,0,5.645,2.859,5.645,6.286c0,3.828-2.436,9.552-3.693,14.856
+    		c-1.051,4.441,2.225,8.064,6.605,8.064c7.933,0,13.272-10.188,13.272-22.261c0-9.174-6.176-16.044-17.418-16.044
+    		c-12.697,0-20.615,9.471-20.615,20.052c0,3.646,1.078,6.221,2.764,8.21c0.773,0.915,0.883,1.283,0.602,2.333
+    		c-0.203,0.771-0.66,2.625-0.854,3.358c-0.279,1.062-1.137,1.44-2.098,1.049c-5.846-2.387-8.572-8.793-8.572-15.994
+    		c0-11.893,10.029-26.154,29.922-26.154c15.985,0,26.506,11.566,26.506,23.984C77.089,52.839,67.956,65.109,54.499,65.109z" />
+            </g>
+        </symbol>
+    </svg>
+    <div class="page">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="header__logo">
+                        <img src="assets/images/Logo.png" alt="Image" class="header__img">
+                    </a>
+                    <nav class="nav">
+                        <a href="#" class="nav__link active">Showroom</a>
+                        <a href="#" class="nav__link">Product</a>
+                        <button type="button" class="btn">Contact</button>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        
+        
+        <section class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <h1 class="intro__title">Good Living<br> Better LIVE</h1>
+                    <div class="intro__text">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Diam aliquam diam dictum mattis.</div>
+                    <div class="intro__search">
+                        <input class="intro__input" type="text" placeholder="Enter product name">
+                        <button type="button" class="btn btn--dark">Search</button>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        <!--/.intro-->
+        
+        <section class="ourkits">
+            <div class="container">
+                <h2 class="ourkits__header">Our Fave Kits</h2>
+                <div class="ourkits__inner">
+                    <div class="ourkits__cards">
+                        <a href="#" class="ourkits__card">
+                            <div class="card__sale">Sale</div>
+                            <img src="assets/images/cards/card1.jpg" alt="" class="card__img">
+                            <div class="card__content">
+                                <div class="card__text">White Swan Chair</div>
+                                <div class="card__price">$69.99</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ourkits__card">
+                            <img src="assets/images/cards/card2.jpg" alt="" class="card__img">
+                            <div class="card__content">
+                                <div class="card__text">Urban sofa set</div>
+                                <div class="card__price">$569</div>
+                            </div>
+                        </a>
+                        <a href="#" class="ourkits__card">
+                            <div class="card__sale">Sale</div>
+                            <img src="assets/images/cards/card3.jpg" alt="" class="card__img">
+                            <div class="card__content">
+                                <div class="card__text">Big Mono &bull; Kitchen set</div>
+                                <div class="card__price">$569</div>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="furniture">
+                        <div class="furniture__content">
+                            <div class="furniture__subtitle">Simple &amp; Modern</div>
+                            <div class="furniture__title">Furniture</div>
+                            <div class="furniture__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium semper porta dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium semper porta dui.</div>
+                            <button class="btn">Order now</button>
+                        </div>
+        
+                        <img src="assets/images/furniture.jpg" alt="" class="furniture__img">
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        <!--/.ourkits-->
+        
+        <section class="video">
+            <div class="video__inner">
+                <img class="video__img" src="assets/images/video.jpg" alt="">
+                <a href="#" class="video__icon">
+                    <img src="assets/images/icons/Play.svg" alt="" class="">
+                </a>
+                <div class="video__bg"></div>
+            </div>
+        </section>
+        <!--/.video-->
+        
+        <section class="benefits">
+            <div class="container">
+                <div class="benefits__inner">
+                    <div class="benefits__subtitle">Simple &amp; Modern</div>
+                    <div class="benefits__title">Benefits You Get When <br> Using Our Services</div>
+        
+                    <div class="benefits__services">
+                        <div class="services__item">
+                            <div class="services__img">
+                                <img src="assets/images/icons/services1.svg" alt="" class="services__icon">
+                            </div>
+                            <div class="services__content">
+                                <div class="services__title">Best Quality</div>
+                                <div class="services__text">All of our funiture uses the best materials and choices for our customers.</div>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__img">
+                                <img src="assets/images/icons/services2.svg" alt="" class="services__icon">
+                            </div>
+                            <div class="services__content">
+                                <div class="services__title">Free Shipping</div>
+                                <div class="services__text">All of our funiture uses the best materials and choices for our customers.</div>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__img">
+                                <img src="assets/images/icons/services3.svg" alt="" class="services__icon">
+                            </div>
+                            <div class="services__content">
+                                <div class="services__title">Warranty</div>
+                                <div class="services__text">All of our funiture uses the best materials and choices for our customers.</div>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+        
+                    <div class="experience">
+                        <div class="experience__photo">
+                            <img src="assets/images/sale.jpg" alt="" class="experience__img">
+                        </div>
+        
+                        <div class="experience__content">
+                            <div class="experience__subtitle">Luxroom Modern</div>
+                            <div class="experience__title">We Provide You The<br> Best Experience</div>
+                            <div class="experience__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium semper porta dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium semper porta dui.</div>
+                            <button class="btn">Order now</button>
+                        </div>
+        
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/.benefits-->
+        
+        <section class="support">
+            <div class="container">
+                <div class="support__inner">
+                    <h2 class="support__title">Support Your Workspace</h2>
+                    <div class="support__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium semper porta dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium semper porta dui.</div>
+                    <div class="support__subscribe">
+                        <input class="support__input" type="text" placeholder="Enter your Email Address">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/.support-->
+        
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__column">
+                        <div class="footer__column-head">PRODUCTS</div>
+                        <a href="#" class="footer__column-links">Red Wine</a>
+                        <a href="#" class="footer__column-links">White Wine</a>
+                        <a href="#" class="footer__column-links">Others</a>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__column-head">ABOUT US</div>
+                        <a href="#" class="footer__column-links">Our Story</a>
+                        <a href="#" class="footer__column-links">Materials</a>
+                        <a href="#" class="footer__column-links">Contact</a>
+                        <a href="#" class="footer__column-links">As seen on</a>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__column-head">SUPPORT</div>
+                        <a href="#" class="footer__column-links">Terms of service</a>
+                        <a href="#" class="footer__column-links">Privacy Policy</a>
+                        <a href="#" class="footer__column-links">Shipping &amp; Returns</a>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__column-head">NEED HELP</div>
+                        <a href="#" class="footer__column-links">We’re available by phone 123-456-789 Monday till Friday 10 to 6 EST</a>
+        
+                        <div class="footer__socials">
+                            <a href="#" class="footer__socials-link">
+                                <svg class="social__icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="footer__socials-link">
+                                <svg class="social__icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="footer__socials-link">
+                                <svg class="social__icon">
+                                    <use xlink:href="#instagram"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="footer__socials-link">
+                                <svg class="social__icon">
+                                    <use xlink:href="#pinterest"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="footer__row">
+                    <a href="#" class="footer__row-link">
+                        <img src="assets/images/footer/american_express.jpg" alt="Image">
+                    </a>
+                    <a href="#" class="footer__row-link">
+                        <img src="assets/images/footer/apple_pay.jpg" alt="Image">
+                    </a>
+                    <a href="#" class="footer__row-link">
+                        <img src="assets/images/footer/google_pay.jpg" alt="Image">
+                    </a>
+                    <a href="#" class="footer__row-link">
+                        <img src="assets/images/footer/maestro-d.jpg" alt="Image">
+                    </a>
+                    <a href="#" class="footer__row-link">
+                        <img src="assets/images/footer/master.jpg" alt="Image">
+                    </a>
+                    <a href="#" class="footer__row-link">
+                        <img src="assets/images/footer/visa.jpg" alt="Image">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+-->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
